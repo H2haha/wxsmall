@@ -1,0 +1,55 @@
+
+<!--弹性盒模型-->
+<!-- <view class='flexshow'>
+<view class='one'>1</view>
+<view class='two'>2</view>
+<view class='three'>3</view>
+</view> -->
+<!--scroll-view -->
+ <!-- <scroll-view class='flexshow' scroll-y="true" scroll-x="true" bindscrolltoupper="upper">
+<view class='one'>1</view>
+<view class='two'>2</view>
+<view class='three'>3</view>
+</scroll-view>
+
+<swiper  autoplay='true' indicator-dots='true' interval='3000' circular='true'>
+<swiper-item wx:for="{{imgUrl}}">
+    <image src='{{item}}' width="350rpx" height="200rpx"></image>
+</swiper-item>
+</swiper>
+<icon type='success' size='100' color='red'></icon>
+<progress percent='100' color='red' stroke-width='20' show-info='true' active='true'>
+
+</progress> -->
+<!-- <form bindsubmit='sumFn'>
+<button size='mini' disabled='{{able}}'>默认按钮</button>
+<button bindtap='changeable'>启用按钮</button>
+<checkbox-group wx:for="{{hobby}}">
+   <checkbox value='{{item}}'>{{item}}</checkbox>
+</checkbox-group>
+<input name="user" type='text' placeholder='请输入用户名' style='border:1px solid #dddd'></input>
+<!-- <textarea style='border:1px solid red'>
+</textarea> -->
+<!-- <radio-group  wx:for="{{sex}}">
+<label>
+<radio>{{item}}</radio>
+</label>
+</radio-group>
+<picker range='{{city}}' value='{{index}}' bindchange='changecity'>
+   <view>当前选择的城市:{{city[index]}}</view>  
+</picker>
+<slider show-value='true'></slider>
+<switch></switch>
+<button size='mini' form-type='submit'>提交按钮</button>
+<button size='mini' form-type='reset'>重置按钮</button>
+</form> --> 
+<!-- <navigator  redirect url="../logs/logs?name=admin&sex=boy">
+跳转到百度首页
+</navigator> -->
+<!-- <audio  src="{{src}}" poster='{{poster}}' name='{{name}}'
+author='{{author}}' controls id="myAudio"></audio>
+<button bindtap='audioPlay'>播放</button>
+<button bindtap='audioPause'>暂停</button> -->
+<!-- <image src='../../img/1.jpg' style='width:400rpx;height:400rpx;background-color:#333' mode='aspectFit'></image>
+<canvas canvas-id='myCanvas' style='width:400rpx;height:400rpx; '>
+</canvas> -->

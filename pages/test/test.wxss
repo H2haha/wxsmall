@@ -1,0 +1,40 @@
+/**test.wxss**/
+/* .flexshow{
+  display:-webkit-flex;
+  flex-direction:row;
+}
+.flexshow view{
+    width: 200rpx;
+    height: 200rpx;
+}
+.one{
+   background:red;
+   flex:1
+}
+.two{
+background: blue;
+ flex:2
+}
+.three{
+background: orange;
+flex:2
+} */
+.flexshow{
+    width:400rpx;
+    height:400rpx;
+    border:1px solid red;
+    overflow:scroll;
+}
+.flexshow view{
+width:500rpx;
+height:250rpx;
+}
+.one{
+background-color:red;
+}
+.two{
+background-color:orange;
+}
+.three{
+background-color:blue;
+}

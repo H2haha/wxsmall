@@ -1,0 +1,53 @@
+/**index.wxss**/
+.slide-image{
+   width:100%;
+   height:100%;
+}
+.content{
+    margin-left: 20rpx;
+    margin-top:20rpx;
+    width:90%;
+    height:230rpx;
+    box-shadow:0px 0px 5px gray;
+    padding:20rpx;
+}
+.img{
+   float:left;
+   width:200rpx;
+   height:200rpx;
+}
+.title{
+   margin-left:20rpx;
+   color:black;
+   font-size:25rpx;
+}
+.price1{
+   color:red;
+   margin-left:20rpx;
+   font-size:25rpx; 
+   font-weight:bold;
+}
+.price2{
+   color:gray;
+   margin-left:20rpx;
+   font-size:18rpx; 
+   font-weight:bold;
+   text-decoration:line-through; 
+}
+.buy{
+    margin-top:20rpx;
+    margin-left: 20rpx;
+    font-size:25rpx;
+    float: left;
+    font-weight:bold;
+    width:200rpx;
+    height:60rpx;
+    color:white;
+    background: red; 
+
+}
+
+
+
+
+

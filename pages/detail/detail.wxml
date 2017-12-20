@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view>
+  <navigator url='../buycar/buycar'>
+  <view class="usermotto">
+    <text class="user-motto">{{title}}</text>
+  </view>
+ 
+   <button bindtap='join'>加入购物车</button> 
+  </navigator>
+</view>

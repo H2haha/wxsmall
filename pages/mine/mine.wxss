@@ -1,0 +1,48 @@
+/**index.wxss**/
+page{
+background:#dbdbdb;
+}
+.user{
+    font-size:25rpx;
+    color:white;
+    padding-top:40rpx;
+    padding-left:40rpx;
+    display:block;
+}
+.account{
+  font-size:20rpx;
+  color:#dbdbdb;
+  margin:20rpx;
+  display: block;
+
+}
+.top{
+ 
+   height:200rpx;
+   background: red;
+   border-radius:10px;
+   margin:10rpx;
+}
+.licon{
+  margin-left:20rpx;
+  margin-top:25rpx;
+  width:30rpx;
+  height:30rpx;
+}
+.ricon{
+  margin-top:20rpx;
+  position:absolute;
+  left:90%;
+  width:20rpx;
+  height:20rpx;
+}
+.check{
+   margin-left:20rpx;
+   font-size:25rpx;
+   color:black;
+}
+.middle{
+  height:80rpx;
+  margun-top:2rpx;
+  background:white;
+}

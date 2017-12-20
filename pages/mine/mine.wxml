@@ -1,0 +1,30 @@
+<view class='top'>
+  <text class='user'>开心就好</text>
+  <text class='account'>用户名：开心就好</text>
+</view>
+<view class='content'>
+     <template name="middle">
+    <view class='middle'>
+    <image   src='{{imgUrl}}'  class='licon' ></image>
+     
+    <text class='check'>{{check}}</text>
+     <image src='../../img/xiangyou.png' class='ricon'></image> 
+    </view>
+    </template>
+</view>
+<!-- <view class='content2'>
+     <template name="middle2">
+    <view class='middle'>
+    <image   src='{{imgUrl}}'  class='licon' ></image>
+     
+    <text class='check'>{{check}}</text>
+     <image src='../../img/xiangyou.png'></image> 
+    </view>
+    </template>
+</view> -->
+<view  class='list' wx:for="{{list}}">
+    <template is="middle" data="{{...item}}">
+    </template>
+</view>
+
+

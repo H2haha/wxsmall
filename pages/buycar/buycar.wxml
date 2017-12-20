@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+
+
+
+<view  class='list'wx:for="{{lists}}">
+    <template is="news" data="{{...item}}">
+    </template>
+</view>
+
+</view>
